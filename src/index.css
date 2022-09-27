@@ -1,0 +1,101 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  color: rgb(51, 51, 51);
+  margin: 0;
+}
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 100vh;
+  margin-top: 20px;
+}
+
+.logo{
+  margin-left: 10px;
+}
+
+.nav.link{
+  color: red !important;
+}
+
+.card{
+  position: relative;
+  width: 50vh;
+  height: 80vh;
+}
+
+.card .face{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.card .front{
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .front h3{
+  position: absolute;
+  bottom: 100px;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff !important;
+  background: rgba(0, 0, 0, .4);
+  text-align: center;
+}
+.card .back{
+  transform: perspective(600px) rotateY(180deg);
+  background: rgb(3, 35, 54);
+  padding: 15px;
+  color: f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
+}
+.card .back h3{
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  color: #fff !important;
+}
+.card .back p{
+  letter-spacing: 1px;
+  color: #fff !important;
+}
+.card:hover .front{
+  transform: perspective(600px) rotateY(180deg);
+}
+.card:hover .back{
+  transform: perspective(600px) rotateY(360deg);
+}
+.about{
+  margin-top: 20px;
+}
+.about2{
+  margin-top: 50px;
+}
+.img_about{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.fa-bars{
+  margin-top: 5px;
+}
