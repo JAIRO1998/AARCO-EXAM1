@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/JAIRO1998/AARCO-EXAM1.git/static/css/main.7b392f49.css",
-    "main.js": "/JAIRO1998/AARCO-EXAM1.git/static/js/main.634b77a2.js",
-    "index.html": "/JAIRO1998/AARCO-EXAM1.git/index.html",
-    "main.7b392f49.css.map": "/JAIRO1998/AARCO-EXAM1.git/static/css/main.7b392f49.css.map",
-    "main.634b77a2.js.map": "/JAIRO1998/AARCO-EXAM1.git/static/js/main.634b77a2.js.map"
+    "main.css": "/JAIRO1998/AARCO-EXAM1/static/css/main.7b392f49.css",
+    "main.js": "/JAIRO1998/AARCO-EXAM1/static/js/main.634b77a2.js",
+    "index.html": "/JAIRO1998/AARCO-EXAM1/index.html",
+    "main.7b392f49.css.map": "/JAIRO1998/AARCO-EXAM1/static/css/main.7b392f49.css.map",
+    "main.634b77a2.js.map": "/JAIRO1998/AARCO-EXAM1/static/js/main.634b77a2.js.map"
   },
   "entrypoints": [
     "static/css/main.7b392f49.css",
