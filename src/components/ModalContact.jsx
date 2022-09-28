@@ -7,7 +7,7 @@ export const ModalContact = () => {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title" id="exampleModalLabel">LLena el siguiente formulario y uno de nuestros asesores se pondrá en contacto contigo.</h5>
+              <h6 className="modal-title" id="exampleModalLabel">LLena el siguiente formulario y uno de nuestros asesores se pondrá en contacto contigo.</h6>
               <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div className="modal-body">
