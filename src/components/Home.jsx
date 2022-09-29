@@ -2,7 +2,7 @@ import React from 'react'
 export const Home = () => {
   return (
     <div className="container2">
-        <div className="row me-2">  
+        <div className="row">  
             <div className="col" id="row4">
               <div className="card">
                 <div className="face front">
@@ -10,7 +10,7 @@ export const Home = () => {
                   <h3>AUTOS</h3>
                 </div>
                 <div className="face back">
-                  <h3>PROTEGE</h3>
+                  <h3 className=''>PROTEGE</h3>
                   <p>Los daños o la pérdida del automóvil y los daños o prejuicios causados a la propiedad ajena o tercera personas con motivo del uso del automóvil</p>
                 </div>
               </div>
@@ -27,8 +27,6 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="row" id="row3">  
             <div className="col">
               <div className="card">
                 <div className="face front">
@@ -53,7 +51,7 @@ export const Home = () => {
                 </div>
               </div>
             </div>
-        </div>
+          </div>
     </div>
   )
 }
