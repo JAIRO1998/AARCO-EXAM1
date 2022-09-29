@@ -4,7 +4,7 @@ import { ModalContact } from './ModalContact'
 export const Nav = () => {
   return (
     <>
-        <nav className="navbar navbar-expand-sm navbar-ligth shadow-sm">
+        <nav className="navbar navbar-expand-lg navbar-ligth shadow-sm">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">
                     <img className='logo' src='https://www.aarco.com.mx/wp-content/uploads/2019/02/Logo-Aarco.png' width='120' alt="Logo" ></img>

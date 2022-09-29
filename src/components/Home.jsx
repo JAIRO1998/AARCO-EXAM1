@@ -2,7 +2,7 @@ import React from 'react'
 export const Home = () => {
   return (
     <div className="container2">
-        <div className="row">  
+        <div className="row me-2">  
             <div className="col" id="row4">
               <div className="card">
                 <div className="face front">

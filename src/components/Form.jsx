@@ -35,20 +35,23 @@ export const Form = () => {
                 const estado = dataApi[0].Municipio.Estado.sEstado;
                 const municipio = dataApi[0].Municipio.sMunicipio;
                 const colonia = dataApi[0].Ubicacion[0].sUbicacion;
-                console.log(estado);
-                console.log(municipio);
-                console.log(colonia);
+                const error = false;
+
                 setDatos({
                         estado: estado, 
                         municipio: municipio, 
-                        colonia: colonia});
+                        colonia: colonia,
+                        error: error
+                    });
             }
             else{
                 console.log("error");
                 setDatos({
                     estado: '', 
                     municipio: '', 
-                    colonia: ''});
+                    colonia: '',
+                    error: true
+                });
             }
         }
         else{
@@ -56,7 +59,9 @@ export const Form = () => {
                 setDatos({
                     estado: '', 
                     municipio: '', 
-                    colonia: ''});
+                    colonia: '',
+                    error: true
+                });
         }
     }
   return (
@@ -105,7 +110,7 @@ export const Form = () => {
                      onChange ={handleChange}
                      required
                     /><p/>
-                </div>
+                </div> 
                 <div className="col">
                     <label className="form-label">Estado:</label><br />
                     <input 
